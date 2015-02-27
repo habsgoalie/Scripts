@@ -1,5 +1,5 @@
 #!/bin/bash
-ocpath='/tank/owncloud'
+ocpath='/var/www/owncloud'
 htuser='www-data'
 
 find ${ocpath}/ -type f -print0 | xargs -0 chmod 0640
