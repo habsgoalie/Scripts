@@ -19,3 +19,4 @@ then
 	$RSYNC --dry-run -aruv $SPATH $DPATH
 else
 	$RSYNC -aruv $SPATH $DPATH
+fi
