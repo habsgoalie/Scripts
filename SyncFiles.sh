@@ -11,12 +11,12 @@
 
 #Declare variables
 RSYNC=/usr/bin/rsync 
-SPATH=/home/kevin/comics
-DPATH=/home/kevin/box/Comics
+SPATH=/home/kevin/comics/
+DPATH=/home/kevin/box/Comics/comics/
 
 if [ "$1" = "dryrun" ]
 then
-	$RSYNC --dry-run -arv $SPATH $DPATH
+	$RSYNC --dry-run -aruv $SPATH $DPATH
 else
-	$RSYNC -arv $SPATH $DPATH
+	$RSYNC -aruv $SPATH $DPATH
 fi
