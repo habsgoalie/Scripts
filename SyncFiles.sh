@@ -12,7 +12,7 @@
 #Declare variables
 RSYNC=/usr/bin/rsync 
 SPATH=/home/kevin/comics
-DPATH=/thome/kevin/box/Comics
+DPATH=/home/kevin/box/Comics
 
 if [ "$1" = "dryrun" ]
 then
