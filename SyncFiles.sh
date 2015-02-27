@@ -16,7 +16,7 @@ DPATH=/home/kevin/box/Comics
 
 if [ "$1" = "dryrun" ]
 then
-	$RSYNC --dry-run -aruv $SPATH $DPATH
+	$RSYNC --dry-run -arv $SPATH $DPATH
 else
-	$RSYNC -aruv $SPATH $DPATH
+	$RSYNC -arv $SPATH $DPATH
 fi
